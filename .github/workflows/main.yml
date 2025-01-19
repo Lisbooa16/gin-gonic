@@ -1,15 +1,12 @@
 name: Pre-commit Checks
 
 on:
-  name: Pre-commit Checks
-
-on:
   pull_request:
     branches:
-      - Main
+      - main
   push:
     branches:
-      - Main
+      - main
 
 jobs:
   pre-commit:
