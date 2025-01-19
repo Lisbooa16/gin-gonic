@@ -1,0 +1,5 @@
+frist of all you set this step in terminal for run "go.mod" "go mod init 'name of project'" then
+you use this "go get -u github.com/gin-gonic/gin" for install all depencency and requirements
+
+step important for you main.go you need import this line "import "github.com/gin-gonic/gin"" this is a main depencency for gin gonic
+this import is not required but is important, because when you this import he traat your response http "import "net/http""
