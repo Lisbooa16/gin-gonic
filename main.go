@@ -19,7 +19,6 @@ func main() {
 		c.JSON(200, gin.H{
 			"database_host": cfg.Database.Host,
 			"database_port": cfg.Database.Port,
-			"server_port":   cfg.Server.Port,
 		})
 	})
 	r.Run()
